@@ -468,17 +468,34 @@ img {
 .link-ftr {
   margin-left: 70px;
 }
-
-.message {
+.form-ftr {
   display: flex;
-  top: 0;
-  left: 0;
+  gap: 10px;
+}
+.ftr-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.ftr-icon-btn {
+  margin-left: 10px;
+}
+
+/* =================6 hw===================== */
+.message {
   margin-left: 93px;
   align-items: baseline;
+}
+.form-ftr {
+  display: flex;
+  gap: 10px;
 }
 .ftr-message-title {
   font-family: "Roboto";
   font-style: normal;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -487,7 +504,33 @@ img {
   color: #ffffff;
 }
 .mail-inp {
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 15px 16px;
+  outline: none;
+  transition: border-color 250ms;
 }
+.ftr-button {
+  margin: 0;
+  width: 200px;
+  height: 50px;
+  background-color: var(--logo-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+}
+
 /* ==================Clients===================== */
 .clients {
   margin-bottom: 50px;
