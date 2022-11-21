@@ -485,7 +485,7 @@ img {
 
 /* =================6 hw===================== */
 .message {
-  margin-left: 93px;
+  margin-left: auto;
   align-items: baseline;
 }
 .form-ftr {
@@ -512,6 +512,7 @@ img {
   border-radius: 4px;
   padding: 15px 16px;
   outline: none;
+  color: #ffffff;
   transition: border-color 250ms;
 }
 .ftr-button {
@@ -749,15 +750,20 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+.modal-icon:hover {
+  fill: #2196f3;
+}
 
 /*  ===================hw 6================== */
 .modal-label {
   display: block;
   font-family: "Roboto";
-  font-style: Bold;
+  font-style: normal;
   font-size: 20px;
+  line-height: 23px;
   text-align: center;
-  margin-bottom: 30px;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
   color: #212121;
 }
 
@@ -804,6 +810,15 @@ img {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 }
 .modal-form-massage:focus {
   outline: 1px solid #2196f3;
@@ -813,6 +828,7 @@ img {
   display: block;
   margin: 0 auto;
   min-width: 200px;
+  height: 50px;
   padding: 10px 52px;
   text-align: center;
   align-items: center;
@@ -858,8 +874,14 @@ img {
   background-size: 11px 8px;
 }
 .modal-form-agreement-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   user-select: none;
 }
 .modal-form-agreement-link {
+  color: #2196f3;
   text-underline-position: under;
 }
